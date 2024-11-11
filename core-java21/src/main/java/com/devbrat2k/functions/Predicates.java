@@ -25,7 +25,7 @@ public class Predicates {
 	}
 
 	/**
-	 * Does the com.devbrat2k.advancedlambdas.Employee has enough rating
+	 * Does the com.devbrat2k.lambdas.advancedlambdas.Employee has enough rating
 	 */
 	Predicate<Employee> bonusEligible = emp -> emp.getRatings() > 10;
 	

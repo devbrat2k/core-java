@@ -100,11 +100,11 @@ public class Employee {
 
 	@Override
 	public String toString() {
-		// return "com.devbrat2k.advancedlambdas.Employee [id=" + id + ", name=" + name + ", address=" +
+		// return "com.devbrat2k.lambdas.advancedlambdas.Employee [id=" + id + ", name=" + name + ", address=" +
 		// address
 		// + "]";
 
-		return "com.devbrat2k.advancedlambdas.Employee " + id;
+		return "com.devbrat2k.lambdas.advancedlambdas.Employee " + id;
 	}
 
 	public String getDepartment() {

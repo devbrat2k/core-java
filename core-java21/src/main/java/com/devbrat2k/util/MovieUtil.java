@@ -11,11 +11,11 @@ public class MovieUtil {
 
 		List<Movie> movies = new ArrayList<>();
 
-		Movie movie = new Movie("Gods Must Be Crazy", false,"");
+		Movie movie = new Movie("Gods Must Be Crazy", false,"Deva");
 		movies.add(movie);
 		movie = new Movie("Fiddler On The Roof", true, "");
 		movies.add(movie);
-		movie = new Movie("Sound of Music", true, "");
+		movie = new Movie("Sound of Music", true, "Deva");
 		movies.add(movie);
 		movie = new Movie("Ben-Hur", true,"");
 		movies.add(movie);
@@ -25,9 +25,9 @@ public class MovieUtil {
 		movies.add(movie);
 		movie = new Movie("ET", false,"Steven Spielberg");
 		movies.add(movie);
-		movie = new Movie("Saving Private Ryan", false,"Steven Spielberg");
+		movie = new Movie("Saving Private Ryan", true,"Steven Spielberg");
 		movies.add(movie);
-		movie = new Movie("Catch Me If You Can", false,"Steven Spielberg");
+		movie = new Movie("Catch Me If You Can", true,"Steven Spielberg");
 		movies.add(movie);
 		return movies;
 
